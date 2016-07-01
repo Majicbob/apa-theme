@@ -1,0 +1,22 @@
+/* style overrides */
+
+.toast-warning {
+  background-color: black!important;
+}
+
+.toast-message {
+  line-height: 22px!important;
+}
+
+#toast-container > div {
+  box-shadow: none!important;
+  padding: 12px 20px 13px 55px;
+}
+
+#toast-container > :hover {
+  box-shadow: none!important;
+}
+
+#toast-container > .toast-warning {
+  background-position: 15px 20px;
+}
