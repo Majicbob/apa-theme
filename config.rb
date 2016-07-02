@@ -2,12 +2,12 @@
 require 'aurora'
 
 # Set this to the root of your project when deployed:
-http_path = "/sites/all/themes/apa"
-css_dir = "stylesheets"
-sass_dir = "sass"
-images_dir = "images"
+http_path       = "/sites/all/themes/apa"
+css_dir         = "stylesheets"
+sass_dir        = "sass"
+images_dir      = "images"
 javascripts_dir = "javascripts"
-fonts_dir = "stylesheets/fonts"
+fonts_dir       = "stylesheets/fonts"
 
 # Change this to :production when ready to deploy the CSS to the live server.
 # Note: If you are using grunt.js, these variables will be overriden.
@@ -21,7 +21,7 @@ relative_assets = true
 line_comments = false
 
 # In development, we can turn on the debug_info to use with FireSass or Chrome Web Inspector. Uncomment:
-# debug = true
+ debug = true
 
 
 ##############################
