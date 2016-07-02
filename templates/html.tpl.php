@@ -51,63 +51,76 @@
   </head>
   <body class="<?php print $classes; ?> noise" <?php print $body_attributes;?>>
     <div class="pagewrapper noises">
-    <div id="woodceiling"><div id="woodceiling-inner"><ul><li class="tel">Tel: 512-206-0101</li><li class="fax">Fax: 512-206-0212</li></ul><div class="facebook-find"><a href="https://www.facebook.com/austinperinatal" target="_blank"><img class="facebook-logo" src="/sites/all/themes/apa/images/fb-logo-small.png" /></a><a href="https://www.facebook.com/austinperinatal" target="_blank">Find us on Facebook</a></div></div></div>
-    <div id="logozone" class="sensiblewidth">
-      <?php
-      if ($_SERVER['REQUEST_URI'] == "/") {
-        echo "<h1 class='namewrapper'>";
-      } else {
-        echo "<div class='namewrapper'>";
-      }
-      ?>
-      <?php
-      if ($_SERVER['REQUEST_URI'] !== "/") {
-        echo "<a href='/' class='apa-link'>";
-      }
-      ?>
-      <span id="apa">Austin Perinatal Associates</span>
-      <?php
-      if ($_SERVER['REQUEST_URI'] !== "/") {
-        echo "</a>";
-      }
-      ?>
-      <span id="colon">:</span><span id="mfm"> <?php
-      if ($_SERVER['REQUEST_URI'] !== "/services") {
-        echo "<a class='serviceslink' href='/services'>";
-      }
-      ?>Maternal Fetal Medicine &amp; Genetic Services</a><?php
-      if ($_SERVER['REQUEST_URI'] !== "/services") {
-        echo "</a>";
-      }?></span>
-      <?php
-      if ($_SERVER['REQUEST_URI'] == "/") {
-        echo "</h1>";
-      } else {
-        echo "</div>";
-      }
-      ?>
-      <?php
-      if ($_SERVER['REQUEST_URI'] !== "/") {
-        echo "<a href='/' class='apa-link'>";
-      }
-      ?>
-      <img id="logo" src="/sites/all/themes/apa/images/austin-perinatal-heart-logo.png" />
-      <?php
-      if ($_SERVER['REQUEST_URI'] !== "/") {
-        echo "</a>";
-      }
-      ?>
-      <div id="ribbon">
-        <div id="ribbon-inner">
-          <a href="/testimonials">
-            <img id="ribbonimage" src="/sites/all/themes/apa/images/ribbon.png" />
-            <img id="ribbonpatient" src="/sites/all/themes/apa/images/krystle.jpg" />
-            <p class="textlink">Patients speak on their APA experience</p>
-          </a>
+      <div id="woodceiling">
+        <div id="woodceiling-inner">
+          <ul>
+            <li class="tel">Tel: 512-206-0101</li>
+            <li class="fax">Fax: 512-206-0212</li>
+          </ul>
+          <div class="facebook-find">
+            <a href="https://www.facebook.com/austinperinatal" target="_blank">
+              <img class="facebook-logo" src="/sites/all/themes/apa/images/fb-logo-small.png" />
+            </a>
+            <a href="https://www.facebook.com/austinperinatal" target="_blank">Find us on Facebook</a>
+          </div>
         </div>
       </div>
-      <img id="menubar" src="/sites/all/themes/apa/images/woodbar.png" />
-    </div>
+      <div id="logozone" class="sensiblewidth">
+        <?php
+        if ($_SERVER['REQUEST_URI'] == "/") {
+          echo "<h1 class='namewrapper'>";
+        } else {
+          echo "<div class='namewrapper'>";
+        }
+        ?>
+        <?php
+        if ($_SERVER['REQUEST_URI'] !== "/") {
+          echo "<a href='/' class='apa-link'>";
+        }
+        ?>
+        <span id="apa">Austin Perinatal Associates</span>
+        <?php
+        if ($_SERVER['REQUEST_URI'] !== "/") {
+          echo "</a>";
+        }
+        ?>
+        <span id="colon">:</span><span id="mfm"> <?php
+        if ($_SERVER['REQUEST_URI'] !== "/services") {
+          echo "<a class='serviceslink' href='/services'>";
+        }
+        ?>Maternal Fetal Medicine &amp; Genetic Services</a><?php
+        if ($_SERVER['REQUEST_URI'] !== "/services") {
+          echo "</a>";
+        }?></span>
+        <?php
+        if ($_SERVER['REQUEST_URI'] == "/") {
+          echo "</h1>";
+        } else {
+          echo "</div>";
+        }
+        ?>
+        <?php
+        if ($_SERVER['REQUEST_URI'] !== "/") {
+          echo "<a href='/' class='apa-link'>";
+        }
+        ?>
+        <img id="logo" src="/sites/all/themes/apa/images/austin-perinatal-heart-logo.png" />
+        <?php
+        if ($_SERVER['REQUEST_URI'] !== "/") {
+          echo "</a>";
+        }
+        ?>
+        <div id="ribbon">
+          <div id="ribbon-inner">
+            <a href="/testimonials">
+              <img id="ribbonimage" src="/sites/all/themes/apa/images/ribbon.png" />
+              <img id="ribbonpatient" src="/sites/all/themes/apa/images/krystle.jpg" />
+              <p class="textlink">Patients speak on their APA experience</p>
+            </a>
+          </div>
+        </div>
+        <img id="menubar" src="/sites/all/themes/apa/images/woodbar.png" />
+      </div>
     <?php print $page_top; ?>
     <?php print $page; ?>
     <?php print $page_bottom; ?>
