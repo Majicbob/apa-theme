@@ -16,9 +16,11 @@ $small: 767px;
 
 @include breakpoint($non-desktop) {
 
-  #logozone, #woodceiling-inner {
+  #logozone, #woodceiling #woodceiling-inner,
+  #block-system-main-menu {
     width: 100%;
   }
+
   #main {
     width: 98%;
   }
@@ -35,8 +37,8 @@ $small: 767px;
     .column {
       width: 100%;
       text-align: center;
-      margin: .5rem 0;
 
+      margin: .5rem 0 !important;
     }
 
     &.text {
@@ -60,6 +62,7 @@ $small: 767px;
     &.trio {
       a {
         display: flex;
+        align-items: center;
       }
 
       img {
@@ -82,10 +85,11 @@ $small: 767px;
   }
 
   @include breakpoint(690px) {
+    background-size: cover;
+
     .three-column {
       width: 100%;
       text-align: center;
-      background-size: cover;
     }
   }
 }
