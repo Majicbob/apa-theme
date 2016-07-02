@@ -1,0 +1,42 @@
+/**
+ * Responsive Partial
+ *
+ */
+
+// Have breakpoint convert to ems for better accessibility
+$breakpoint-to-ems: true;
+$breakpoint-default-feature: max-width;
+
+// Breakpoint Vars
+
+// existing design is fixed with header at 1042 and main at 1020
+$non-desktop: 1064px;
+$small: 767px;
+
+
+@include breakpoint($non-desktop) {
+
+  #logozone {
+    width: 100%;
+  }
+  #main, .apa-footer {
+    width: 98%;
+  }
+}
+
+
+@include breakpoint($small) {
+
+  .columnwrapper {
+    .column {
+      width: 100%;
+      text-align: center;
+      margin-bottom: .5rem;
+
+    }
+
+    &.text .column {
+      text-align: initial;
+    }
+  }
+}
