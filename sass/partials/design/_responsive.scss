@@ -28,9 +28,10 @@ $small: 767px;
   }
 }
 
+$vert-col-border-style: 1px dashed white;
 @mixin vertical-col-borders {
   .column {
-    border-bottom: 1px dashed white;
+    border-bottom: $vert-col-border-style;
   }
 }
 
@@ -119,6 +120,12 @@ $small: 767px;
       }
     }
   }
-
-
 }
+
+// featured articles block
+#block-views-featured-article-block {
+  @include breakpoint(540px) {
+    .view-featured-article .views-row {
+      width: 100%;
+      border-bottom: $vert-col-border-style;
+      margi
