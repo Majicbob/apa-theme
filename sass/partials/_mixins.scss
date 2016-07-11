@@ -3,3 +3,24 @@
 //
 // All of your mixins should go in this file.
 ////////////////////////
+
+
+/**
+ * hover-box-shadow - Creates a box shadow on hover
+ */
+$hover-shadow-color: black !default;
+$hover-shadow-blur: 15px !default;
+$hover-shadow-spread: 2px !default;
+$hover-shadow-offset-x: 0 !default;
+$hover-shadow-offset-y: 0 !default;
+
+@mixin hover-box-shadow($color:$hover-shadow-color, $blur:$hover-shadow-blur, $spread:$hover-shadow-spread,
+                        $offset-x:$hover-shadow-offset-x, $offset-y:$hover-shadow-offset-y) {
+
+  &:hover {
+    @include box-shadow($color $offset-x $offset-y $blur $spread);
+    @include transition-duration(.75s);
+  }
+
+  @include transition-duration(.75s);
+}
