@@ -1,0 +1,13 @@
+/**
+ * Polish Partial - Adds 'shiny' things like hover effects, shadows, etc
+ */
+
+// setup hover-shadow mixin defaults
+$hover-shadow-offset-x: 5px;
+$hover-shadow-offset-y: 5px;
+$hover-shadow-color: rgba(0, 0, 0, 0.73);
+$hover-shadow-blur: 8px;
+
+.trio img {
+  @include hover-box-shadow();
+}
