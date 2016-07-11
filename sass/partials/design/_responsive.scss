@@ -35,7 +35,23 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
+
+
 @include breakpoint($non-desktop) {
+  #header {
+    background: url(/sites/all/themes/apa/images/woodbar.png);
+    min-height: 68px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    z-index: 3;
+    position: relative;
+  }
+
+  #menubar {
+    display: none;
+  }
 
   #logozone, #woodceiling #woodceiling-inner,
   #block-system-main-menu {
@@ -43,10 +59,24 @@ $vert-col-border-style: 1px dashed white;
   }
 
   #main {
+    margin-top: -2rem;
     width: 96%;
   }
 }
 
+@include breakpoint(980px) {
+  #logozone {
+    height: 163px;
+
+    #ribbon, & > .apa-link {
+      display: none;
+    }
+
+    div.namewrapper {
+      padding-top: 45px;
+    }
+  }
+}
 
 @include breakpoint($small) {
 
