@@ -12,7 +12,7 @@ $breakpoint-default-feature: max-width;
 // existing design is fixed with header at 1042 and main at 1020
 $non-desktop: 1064px;
 $small: 767px;
-
+$mobile-menu: 665px;
 
 // response specific mixins
 @mixin fix-col-images {
@@ -36,6 +36,7 @@ $vert-col-border-style: 1px dashed white;
 }
 
 
+// styles
 
 @include breakpoint($non-desktop) {
   #header {
@@ -66,7 +67,7 @@ $vert-col-border-style: 1px dashed white;
 
 @include breakpoint(980px) {
   #logozone {
-    height: 163px;
+    height: 155px;
 
     #ribbon, & > .apa-link {
       display: none;
@@ -114,6 +115,25 @@ $vert-col-border-style: 1px dashed white;
   }
 
 
+}
+
+@include breakpoint($mobile-menu) {
+
+  #woodceiling {
+    height: auto;
+    position: relative;
+    background-size: cover;
+
+    #woodceiling-inner .facebook-find {
+      position: initial;
+      text-align: center;
+    }
+  }
+
+  #logozone div.namewrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 
@@ -172,7 +192,4 @@ $vert-col-border-style: 1px dashed white;
 
   @include breakpoint($small) {
     h1 {
-      text-align: center;
-    }
-  }
-}
+      text
