@@ -22,8 +22,8 @@ module.exports = function (grunt) {
       },
       js: {
         files: [
-          'javascripts/{,**/}*.js',
-          '!javascripts/{,**/}*.js'
+          'js/{,**/}*.js',
+          '!js/{,**/}*.js'
         ],
         tasks: ['jshint', 'uglify:dev']
       }
@@ -53,8 +53,8 @@ module.exports = function (grunt) {
         jshintrc: '.jshintrc'
       },
       all: [
-        'javascripts/{,**/}*.js',
-        '!javascripts/{,**/}*.min.js'
+        'js/{,**/}*.js',
+        '!js/{,**/}*.min.js'
       ]
     },
 
@@ -92,22 +92,22 @@ module.exports = function (grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'javascripts',
+          cwd: 'js',
           src: ['**/*.js', '!**/*.min.js'],
-          dest: 'javascripts',
+          dest: 'js',
           ext: '.min.js'
         }]
       },
       dist: {
         options: {
           mangle: true,
-          compress: true
+          compress: {}
         },
         files: [{
           expand: true,
-          cwd: 'javascripts',
+          cwd: 'js',
           src: ['**/*.js', '!**/*.min.js'],
-          dest: 'javascripts',
+          dest: 'js',
           ext: '.min.js'
         }]
       }
