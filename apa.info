@@ -33,6 +33,7 @@ stylesheets[all][] = 'components/formalize/assets/css/formalize.css'
 scripts[] = 'components/formalize/assets/js/jquery.formalize.min.js'
 scripts[] = 'js/toastr.js'
 scripts[] = 'js/toastr.custom.js'
+scripts[] = 'js/apa.min.js'
 
 ; ========================================
 ; Fonts
