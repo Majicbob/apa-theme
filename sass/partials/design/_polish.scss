@@ -9,6 +9,9 @@ $hover-shadow-color: rgba(0, 0, 0, 0.73);
 $hover-shadow-blur: 8px;
 
 .trio img,
-iframe.shadow {
+iframe.shadow,
+img.shadow,
+#{$testimonials-page} iframe,
+#{$about-page} .field-type-image img {
   @include hover-box-shadow();
 }
