@@ -13,6 +13,7 @@ $breakpoint-default-feature: max-width;
 $non-desktop: 1064px;
 $small: 767px;
 $mobile-menu: 665px;
+$mobile-small: 420px;
 
 $responsive-width: 96%;
 $apa-border-radius: 10px;
@@ -52,6 +53,7 @@ $vert-col-border-style: 1px dashed white;
   display: none;
 
   position: fixed;
+  top: 0;
   opacity: .7;
   width: 2.2rem;
   margin: .4rem 0 0 .4rem;
@@ -288,3 +290,4 @@ $vert-col-border-style: 1px dashed white;
     }
   }
 }
+
