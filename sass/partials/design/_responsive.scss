@@ -48,6 +48,23 @@ $vert-col-border-style: 1px dashed white;
 
 
 // styles
+.menu-icon {
+  display: none;
+
+  position: fixed;
+  opacity: .7;
+  width: 2.2rem;
+  margin: .4rem 0 0 .4rem;
+  cursor: pointer;
+
+  img {
+    @include border-radius($apa-border-radius);
+
+    background: #632717 url(/sites/all/themes/apa/images/woodtop.png) repeat-x;
+    border: 2px solid black;
+    padding: 0 2px;
+  }
+}
 
 @include breakpoint($non-desktop) {
   #header {
@@ -129,8 +146,15 @@ $vert-col-border-style: 1px dashed white;
 
 }
 
+@include breakpoint(666px min-width) {
+  #header {
+    display: block;
+  }
+}
+
 @include breakpoint($mobile-menu) {
 
+  // double top bar size, facebook link center on next line
   #woodceiling {
     height: auto;
     position: relative;
@@ -155,6 +179,53 @@ $vert-col-border-style: 1px dashed white;
   #mfm {
     display: none;
   }
+
+  // switch to mobile menu
+  .menu-icon {
+    display: block;
+
+  }
+  #header {
+    display: none;
+
+    position: fixed;
+    top: 2.4rem;
+    left: 0.5rem;
+    z-index: 5;
+    width: 12rem;
+    margin-top: 2px;
+    padding: 0.3rem;
+
+    background: black;
+    border-radius: 10px;
+    opacity: 0.85;
+
+    .menu {
+      text-align: left;
+    }
+
+    li {
+      padding: 2px 0;
+    }
+  }
+  #main {
+    @include border-top-radius($apa-border-radius);
+
+    margin-top: 0;
+
+    .main-inner {
+      padding-top: 1rem;
+    }
+  }
+
+  // other mobile size styles
+
+  #{$testimonials-page} {
+    h1 {
+      text-align: center;
+    }
+  }
+
 }
 
 
@@ -213,4 +284,7 @@ $vert-col-border-style: 1px dashed white;
 
   @include breakpoint($small) {
     h1 {
-      text
+      text-align: center;
+    }
+  }
+}
