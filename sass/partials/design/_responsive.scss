@@ -14,6 +14,17 @@ $non-desktop: 1064px;
 $small: 767px;
 $mobile-menu: 665px;
 
+$responsive-width: 96%;
+$apa-border-radius: 10px;
+
+// page class vars
+$dr-berry-page: '.page-node-2';
+$staff-page: '.page-staff';
+$services-page: '.page-node-8';
+$testimonials-page: '.page-node-7';
+$about-page: '.page-node-25';
+$maps-page: '.page-node-26';
+
 // response specific mixins
 @mixin fix-col-images {
   @include breakpoint($small) {
