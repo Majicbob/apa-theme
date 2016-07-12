@@ -72,7 +72,7 @@ $vert-col-border-style: 1px dashed white;
 
   #main {
     margin-top: -2rem;
-    width: 96%;
+    width: $responsive-width;
   }
 }
 
@@ -80,11 +80,12 @@ $vert-col-border-style: 1px dashed white;
   #logozone {
     height: 155px;
 
-    #ribbon, & > .apa-link {
+    // hide testimonial ribbon and both logo (differs by page)
+    #ribbon, & > .apa-link, #logo {
       display: none;
     }
 
-    div.namewrapper {
+    div.namewrapper, h1.namewrapper {
       padding-top: 45px;
     }
   }
@@ -141,16 +142,25 @@ $vert-col-border-style: 1px dashed white;
     }
   }
 
-  #logozone div.namewrapper {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  #logozone {
+    height: auto;
+
+    div.namewrapper, h1.namewrapper {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  // hide subtitle
+  #mfm {
+    display: none;
   }
 }
 
 
 .apa-footer {
   @include breakpoint($non-desktop) {
-    width: 98%;
+    width: $responsive-width;
   }
 
   @include breakpoint($small) {
