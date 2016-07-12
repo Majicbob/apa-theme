@@ -137,21 +137,34 @@
     </div>
   </div>
   <div class="clearfix"></div>
+
 <div class="columnwrapper text trio clearfix">
     <div class="three column first">
-      <a href="/dr-david-berry"><img class="shadow" src="/sites/all/themes/apa/images/portrait-dr-david-berry.jpg" /></a>
+      <a href="/dr-david-berry">
+        <div>
+          <img class="shadow" src="/sites/all/themes/apa/images/portrait-dr-david-berry.jpg" />
+        </div>
+      </a>
       <h2>Dr. David L. Berry</h2>
       <p>A 4th generation physician and Austinite since 1978, Dr. Berry is board certified by the American Board of Obstetrics and Gynecology both in OB/GYN and maternal-fetal medicine.</p>
       <p><a href="/dr-david-berry">Read more about Dr. Berry &#187;</a></p>
     </div>
     <div class="three column second">
-      <a href="/staff"><img class="shadow" src="/sites/all/themes/apa/images/austin-perinatal-staff.jpg" /></a>
+      <a href="/staff">
+        <div>
+          <img class="shadow" src="/sites/all/themes/apa/images/austin-perinatal-staff.jpg" />
+        </div>
+      </a>
       <h2>The APA Staff</h2>
       <p>Courteous, friendly, and experienced, the Austin Perinatal Associates staff is second to none. We staff genetic counselors, sonographers, nurse practitioners, and more.</p>
       <p><a href="/staff">Meet the APA staff &#187;</a></p>
     </div>
     <div class="three column third">
-      <a href="/testimonials"><img class="shadow" src="/sites/all/themes/apa/images/david-berry-greeting-patients.jpg" /></a>
+      <a href="/testimonials">
+        <div>
+          <img class="shadow" src="/sites/all/themes/apa/images/david-berry-greeting-patients.jpg" />
+        </div>
+      </a>
       <h2>You Are Family</h2>
       <p>It is our job to be here for you, just like family. Our patients often visit with their offspring, just like family. Personalized care really does mean exactly that. See what our patients have to say!</p>
       <p><a href="/testimonials">Video testimonials &#187;</a></p>

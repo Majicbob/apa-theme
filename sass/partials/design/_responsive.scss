@@ -34,6 +34,12 @@ $feedback-page:     '.page-node-35';
     a {
       display: flex;
       align-items: center;
+
+      // added wrapper to fix streching img issue in FF
+      div {
+        width: 100%;
+        text-align: center;
+      }
     }
 
     img {
