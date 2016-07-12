@@ -26,6 +26,7 @@ $testimonials-page: '.page-node-7';
 $education-page:    '.page-node-9';
 $about-page:        '.page-node-25';
 $maps-page:         '.page-node-26';
+$feedback-page:     '.page-node-35';
 
 // response specific mixins
 @mixin fix-col-images {
@@ -314,7 +315,6 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
-// maps/forms page
 #{$maps-page} {
   iframe#googlemap {
     margin-bottom: 2rem;
@@ -327,3 +327,12 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
+#{$feedback-page} {
+  h1 {
+    text-align: center;
+  }
+
+  .webform-client-form input {
+    width: 100%;
+  }
+}
