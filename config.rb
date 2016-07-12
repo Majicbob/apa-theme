@@ -6,7 +6,7 @@ http_path       = "/sites/all/themes/apa"
 css_dir         = "stylesheets"
 sass_dir        = "sass"
 images_dir      = "images"
-javascripts_dir = "javascripts"
+javascripts_dir = "js"
 fonts_dir       = "stylesheets/fonts"
 
 # Change this to :production when ready to deploy the CSS to the live server.
