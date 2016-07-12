@@ -43,6 +43,9 @@ module.exports = function (grunt) {
         options: {
           environment: 'production',
           imagesDir: 'images-min',
+          'output-style': 'compressed',
+          'no-line-comments': true,
+          debug: false,
           force: true
         }
       }
