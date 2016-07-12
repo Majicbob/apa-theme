@@ -52,6 +52,9 @@
   <body class="<?php print $classes; ?> noise" <?php print $body_attributes;?>>
     <div class="pagewrapper noises">
       <div id="woodceiling">
+        <div class="menu-icon">
+          <img src="/sites/all/themes/apa/images/menu.png" alt="Menu"  />
+        </div>
         <div id="woodceiling-inner">
           <ul>
             <li class="tel">Tel: 512-206-0101</li>
