@@ -138,6 +138,11 @@ $vert-col-border-style: 1px dashed white;
       text-align: center;
 
       margin: .5rem 0 !important;
+
+      // fix paragraph align issue in IE
+      p {
+        text-align: left;
+      }
     }
 
     &.text {
@@ -183,7 +188,7 @@ $vert-col-border-style: 1px dashed white;
     background-size: cover;
 
     #woodceiling-inner .facebook-find {
-      position: initial;
+      position: static;
       text-align: center;
       margin-top: -8px;
     }
