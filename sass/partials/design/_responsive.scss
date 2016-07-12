@@ -10,22 +10,22 @@ $breakpoint-default-feature: max-width;
 // Breakpoint Vars
 
 // existing design is fixed with header at 1042 and main at 1020
-$non-desktop: 1064px;
-$small: 767px;
-$mobile-menu: 665px;
+$non-desktop:  1064px;
+$small:        767px;
+$mobile-menu:  665px;
 $mobile-small: 420px;
 
 $responsive-width: 96%;
 $apa-border-radius: 10px;
 
 // page class vars
-$dr-berry-page: '.page-node-2';
-$staff-page: '.page-staff';
-$services-page: '.page-node-8';
+$dr-berry-page:     '.page-node-2';
+$staff-page:        '.page-staff';
+$services-page:     '.page-node-8';
 $testimonials-page: '.page-node-7';
-$education-page: '.page-node-9';
-$about-page: '.page-node-25';
-$maps-page: '.page-node-26';
+$education-page:    '.page-node-9';
+$about-page:        '.page-node-25';
+$maps-page:         '.page-node-26';
 
 // response specific mixins
 @mixin fix-col-images {
@@ -113,6 +113,12 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
+@include breakpoint(939px) {
+  #header {
+    padding-top: 3px;
+  }
+}
+
 @include breakpoint($small) {
 
   h2 {
@@ -158,6 +164,10 @@ $vert-col-border-style: 1px dashed white;
 }
 
 @include breakpoint($mobile-menu) {
+  // tighten up paragraph line height, its pretty large in most places
+  p {
+    line-height: 1.5 !important;
+  }
 
   // double top bar size, facebook link center on next line
   #woodceiling {
@@ -168,6 +178,7 @@ $vert-col-border-style: 1px dashed white;
     #woodceiling-inner .facebook-find {
       position: initial;
       text-align: center;
+      margin-top: -8px;
     }
   }
 
@@ -234,6 +245,13 @@ $vert-col-border-style: 1px dashed white;
 }
 
 @include breakpoint($mobile-small) {
+  #woodceiling {
+    #woodceiling-inner ul li {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
   // make toast notifications full width at the bottom
   #toast-container {
     width: 100%;
