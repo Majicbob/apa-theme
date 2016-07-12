@@ -23,6 +23,7 @@ $dr-berry-page: '.page-node-2';
 $staff-page: '.page-staff';
 $services-page: '.page-node-8';
 $testimonials-page: '.page-node-7';
+$education-page: '.page-node-9';
 $about-page: '.page-node-25';
 $maps-page: '.page-node-26';
 
@@ -48,7 +49,9 @@ $vert-col-border-style: 1px dashed white;
 }
 
 
-// styles
+/**
+ * Responsive Styles
+ */
 .menu-icon {
   display: none;
 
@@ -230,7 +233,23 @@ $vert-col-border-style: 1px dashed white;
 
 }
 
+@include breakpoint($mobile-small) {
+  // make toast notifications full width at the bottom
+  #toast-container {
+    width: 100%;
+    bottom: 0;
+    left: 0;
 
+    .toast {
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
+    }
+  }
+
+}
+
+// footer - all breakpoints
 .apa-footer {
   @include breakpoint($non-desktop) {
     width: $responsive-width;
@@ -250,8 +269,7 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
-// education page
-.page-node-9 {
+#{$education-page} {
   .columnwrapper.text {
     @include fix-col-images;
 
@@ -279,7 +297,7 @@ $vert-col-border-style: 1px dashed white;
 }
 
 // maps/forms page
-.page-node-26 {
+#{$maps-page} {
   iframe#googlemap {
     margin-bottom: 2rem;
   }
