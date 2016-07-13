@@ -257,6 +257,11 @@ $vert-col-border-style: 1px dashed white;
 }
 
 @include breakpoint($mobile-small) {
+  // large heading runs into each other when wrapped to two lines
+  h1 {
+    line-height: 1;
+  }
+
   #woodceiling {
     #woodceiling-inner ul li {
       width: 100%;
@@ -278,6 +283,11 @@ $vert-col-border-style: 1px dashed white;
   }
 
 }
+
+
+/**
+ * Page / Element Specific Styling
+ */
 
 // footer - all breakpoints
 .apa-footer {
@@ -345,5 +355,42 @@ $vert-col-border-style: 1px dashed white;
 
   .webform-client-form input {
     width: 100%;
+  }
+}
+
+#{$services-page} {
+
+  @include breakpoint($small) {
+    .trio .column > a {
+      display: block;
+    }
+
+  }
+
+  @include breakpoint($mobile-small) {
+    .field-item h2 {
+      margin-left: 0;
+    }
+
+    p.knowthis {
+      font-size: 2rem;
+      line-height: 1.1 !important;
+    }
+
+    #main ul {
+      padding-left: 1.5rem;
+      font-size: 1.3rem;
+      line-height: 1.3;
+      text-indent: 0;
+
+      li {
+        margin-bottom: 6px;
+      }
+    }
+
+    .berry-and-staff {
+      margin-top: 0;
+    }
+
   }
 }
