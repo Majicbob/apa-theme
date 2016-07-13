@@ -54,7 +54,7 @@
       <div id="woodceiling">
         <div id="woodceiling-inner">
           <ul>
-            <li class="tel">Tel: 512-206-0101</li>
+            <li class="tel">Tel: <a href="tel+512-206-0101">512-206-0101</a></li>
             <li class="fax">Fax: 512-206-0212</li>
           </ul>
           <div class="facebook-find">

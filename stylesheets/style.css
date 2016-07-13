@@ -1,1 +1,1693 @@
-*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}img,video{max-width:100%;height:auto}/*! normalize.css v2.1.0 | MIT License | git.io/normalize *//*! normalize.css v2.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}/*! normalize.css v2.1.0 | Base | MIT License | git.io/normalize */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}/*! normalize.css v2.1.0 | Links | MIT License | git.io/normalize */a:focus{outline:thin dotted}a:active,a:hover{outline:0}/*! normalize.css v2.1.0 | Typography | MIT License | git.io/normalize */h1{font-size:2em;margin:0.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}/*! normalize.css v2.1.0 | Embedded Content | MIT License | git.io/normalize */img{border:0}svg:not(:root){overflow:hidden}/*! normalize.css v2.1.0 | Figures | MIT License | git.io/normalize */figure{margin:0}/*! normalize.css v2.1.0 | Forms | MIT License | git.io/normalize */fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}/*! normalize.css v2.1.0 | Tables | MIT License | git.io/normalize */table{border-collapse:collapse;border-spacing:0}.clearfix:before,.content:before,#woodceiling:before,#woodceiling ul:before,.main-inner:before,.page-staff .views-row:before,.page-staff .views-field-field-image img:before,.page-node-7 .framewrap:before,.block-views-featured-article-block:before,.clearfix:after,.content:after,#woodceiling:after,#woodceiling ul:after,.main-inner:after,.page-staff .views-row:after,.page-staff .views-field-field-image img:after,.page-node-7 .framewrap:after,.block-views-featured-article-block:after{display:table;content:""}.clearfix:after,.content:after,#woodceiling:after,#woodceiling ul:after,.main-inner:after,.page-staff .views-row:after,.page-staff .views-field-field-image img:after,.page-node-7 .framewrap:after,.block-views-featured-article-block:after{clear:both}body{font-family:Verdana,Tahoma,"DejaVu Sans",sans-serif;font-size:16px;line-height:26px;color:#303030}h1{font-family:"EB Garamond", serif;font-weight:normal;font-size:2.8em}h2{font-family:"EB Garamond", serif;font-weight:normal;margin:1em auto 0.5em;font-size:2.5em;line-height:1em}h3{font-family:"EB Garamond", serif;font-weight:normal}h4{font-family:"EB Garamond", serif;font-weight:normal}h5{font-family:"EB Garamond", serif;font-weight:normal}h6{font-family:"EB Garamond", serif;font-weight:normal}a:link{color:#632717;text-decoration:none}a:visited{color:#632717}a:hover,a:focus{text-decoration:underline}ul ul,ul ol,ol ol,ol ul{margin-bottom:0}ol{font-size:1.3em;line-height:28px;padding-left:55px;margin-bottom:28px}ol li{margin-bottom:14px}hr{height:1px;border:1px solid #666;padding-bottom:-1px;margin:1.625em 0}strong{font-weight:bold}em{font-style:italic}::-moz-selection{background:#632717;color:#fff;text-shadow:none}::selection{background:#632717;color:#fff;text-shadow:none}input,button,select,textarea{font-family:Arial,Helvetica,"Nimbus Sans L",sans-serif}@font-face{font-family:'Nuptial';src:url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.eot");src:url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.eot?#iefix") format("embedded-opentype"),url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.ttf") format("truetype"),url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.woff") format("woff"),url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.svg#nuptial_script_lt_stdmedium") format("svg");font-style:normal;font-weight:normal}*{-webkit-font-smoothing:antialiased}body{font-family:"proxima-nova",sans-serif;font-style:normal;font-weight:300;background:#7e9bcb;background:-moz-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #3b485f), color-stop(100%, #7e9bcb));background:-webkit-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);background:-o-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);background:-ms-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);background:linear-gradient(to bottom, #3b485f 0%,#7e9bcb 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b485f', endColorstr='#7e9bcb',GradientType=0 );background-size:100% 700px;background-repeat:no-repeat;background-color:#7e9bcb}iframe{max-width:100%}#main a,#header a{position:relative}#main a:active,#header a:active{top:1px}#woodceiling{background:#632717 url(/sites/all/themes/apa/images/woodtop.png) repeat-x;width:100%;height:33px;box-shadow:0 1px 10px rgba(0,0,0,0.6);overflow:hidden;position:absolute;top:0}#woodceiling #woodceiling-inner{width:1042px;margin:0 auto;position:relative}#woodceiling #woodceiling-inner img.facebook-logo{width:16px;height:16px;margin:0 6px 0 0;position:relative;top:4px;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity:0.9;opacity:0.9}#woodceiling #woodceiling-inner .facebook-find{position:absolute;right:27px;top:0;width:auto;font-size:12px;font-weight:400;line-height:32px;text-shadow:0 1px 1px rgba(0,0,0,0.76);font-family:"Mate SC", serif}#woodceiling #woodceiling-inner .facebook-find a{color:#FFFAF0}#woodceiling ul{padding:0;margin:0;text-align:center;list-style-type:none}#woodceiling ul li{display:inline-block;font-family:"Mate SC", serif;text-transform:lowercase;line-height:31px;font-size:18px;padding:0;color:#f5ede0;text-shadow:0 1px 1px rgba(0,0,0,0.76)}#woodceiling ul li.tel{padding-right:12px}#woodceiling ul li.fax{padding-left:12px}.sensiblewidth{width:1042px}#logozone{height:250px;margin:0 auto;background:transparent;position:relative}#logozone a.apa-link,#logozone a.serviceslink{color:#fffaf0;text-decoration:none}#logozone a.apa-link:hover,#logozone a.serviceslink:hover{text-decoration:underline}#logozone div.namewrapper,#logozone h1.namewrapper{padding-top:86px;text-align:center;color:#fffaf0;margin:0;font-weight:normal}#logozone div.namewrapper span#apa,#logozone h1.namewrapper span#apa{display:block;font-family:"Mate SC", serif;font-size:50px;line-height:50px;letter-spacing:-1px;text-shadow:0 2px 10px rgba(0,0,0,0.6)}#logozone div.namewrapper span#colon,#logozone h1.namewrapper span#colon{display:none}#logozone div.namewrapper span#mfm,#logozone h1.namewrapper span#mfm{display:block;font-family:Nuptial, serif;font-size:32px;line-height:32px;text-shadow:0 2px 10px rgba(0,0,0,0.6);padding-top:10px}#logozone #logo{position:absolute;left:-6px;bottom:-30px;z-index:30}#logozone div#ribbon{position:absolute;top:-3px;right:8px;width:167px;height:231px}#logozone div#ribbon:active{top:-2px}#logozone div#ribbon #ribbon-inner{position:relative}#logozone div#ribbon p.textlink{position:absolute;top:161px;width:100%;color:#fffaf0;font-family:"EB Garamond", serif;text-align:center;padding:0 10px;font-size:14px;line-height:17px;margin:0 auto;text-shadow:0 1px 1px rgba(0,0,0,0.79);text-decoration:none}#logozone div#ribbon p.textlink:hover{text-decoration:underline}#logozone #ribbonpatient{position:absolute;width:127px;height:99px;top:51px;left:20px}#block-system-main-menu{width:1100px;margin:0 auto}#block-system-main-menu ul{margin:0 auto;padding:0;text-align:center;list-style-type:none;position:relative;z-index:32;font-family:"EB Garamond", serif;font-size:20px}#block-system-main-menu ul li{display:inline-block;padding:0;margin:1px 15px 0;text-transform:uppercase}#block-system-main-menu ul li a{color:#faf0dd;text-decoration:none;text-shadow:0 2px 2px rgba(22,24,26,0.78)}#block-system-main-menu ul li a:hover{text-decoration:underline}#block-system-main-menu ul li a.active-trail{text-decoration:underline}#menubar{position:absolute;bottom:-53px;z-index:25}#main{width:1020px;margin:0 auto;background:#e1d4bc url(/sites/all/themes/apa/images/paper-texture.jpg);box-shadow:0 2px 38px rgba(0,0,0,0.5);padding-bottom:20px}.main-inner{max-width:96%;margin:0 4%;padding:60px 0 0 0;min-height:600px}.main-inner p{font-size:24px;line-height:40px;margin:0.8em auto}.columnwrapper.text{padding-bottom:28px}.columnwrapper.text.trio{padding-bottom:0}.columnwrapper.video{padding-bottom:10px}.columnwrapper.testimonials{padding-bottom:10px}.columnwrapper.testimonials p{margin-top:26px;margin-bottom:10px;line-height:36px;font-weight:400}.columnwrapper.testimonials p.more{margin-top:3px;float:right;font-weight:400;font-style:italic}.two.column{width:48.5%}.two.column h2{font-size:2.2em;margin-top:22px;margin-bottom:8px}.two.column p{font-size:1.2em}.two.column.first{float:left}.two.column.second{float:right}.three.column{width:32%}.three.column h2{font-size:1.85em;margin-top:22px;margin-bottom:12px;font-family:"Mate SC", serif}.three.column p{font-size:1em;line-height:1.8em;padding-right:10px;font-weight:400}.three.column.first{float:left}.three.column.second{float:left;margin-left:2%}.three.column.third{float:right}.aftertext h2{margin-top:8px}.shadow,.field-type-image img,.views-field-field-image img,.page-node-26 iframe#googlemap{box-shadow:0 3px 6px rgba(0,0,0,0.5)}.page-staff .views-row{margin-bottom:50px}.page-staff .views-row.views-row-1{margin-top:63px}.page-staff h1{display:none}.page-staff h2{margin-top:-3px;margin-bottom:10px;width:69%;float:right;text-align:left}.page-staff .jobtitle{font-family:"Mate SC", serif;font-size:1.3em;width:69%;float:right;text-align:left;margin-bottom:9px}.page-staff p{font-size:18px;line-height:30px;overflow:hidden;width:69%;float:right;text-align:left;margin-bottom:8px}.page-staff .views-field-field-image img{max-width:300px;width:28%;float:left;margin-right:2%}.page-node-7 .framewrap{margin-bottom:23px}.page-node-7 h1{margin-top:10px}.page-node-7 p.firsttext{margin-bottom:44px}.page-node-7 p.nexttext{margin-top:0;margin-bottom:58px}.page-node-7 p.written-testimonial{margin-bottom:32px}.page-node-7 h2.hand{margin-top:69px}.page-node-8 h1{display:none}.page-node-8 p.knowthis{font-family:"EB Garamond", serif;line-height:1.3em;font-size:36px}.page-node-8 .field-item h2{font-size:32px;margin-top:36px;margin-left:11px;font-family:"Mate SC", serif}.page-node-8 #main ul{font-size:22px;line-height:1.7em;font-style:italic;padding-left:50px}.page-node-8 #main ul li{text-indent:6px}.page-node-9 h1{display:none}.page-node-9 .columnwrapper.video{margin-bottom:26px}.page-node-9 #block-views-featured-article-block h2{margin:0 0 20px;font-size:2.5em}.page-node-9 #block-views-featured-article-block .views-row{width:48%;float:left}.page-node-9 #block-views-featured-article-block .views-row h2{font-size:1.65em}.page-node-9 #block-views-featured-article-block .views-row p{font-size:15px;line-height:25px;font-weight:400}.page-node-9 #block-views-featured-article-block .views-row-first{width:52%;padding-right:5%}.page-node-9 #block-views-featured-article-block .view-footer h2{display:block;margin-bottom:28px}.page-node-9 .columnwrapper.video h2{margin-top:32px;margin-bottom:29px}.page-node-9 .three.column h2{font-size:1.8em;margin-top:17px;margin-bottom:14px;font-family:"Mate SC", serif;letter-spacing:-1px}.page-node-9 .three.column p{font-size:15px;line-height:25px;padding-right:13px;font-weight:400;margin-bottom:16px}.page-node-9 .three.column p a{font-size:13px;padding:0.5em 1.5em;display:inline-block;cursor:pointer;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF632717', endColorstr='#FF100604');background-color:#632717;border:0;color:#fff;text-shadow:#000 0 -1px 0;padding:0 10px;text-shadow:none;color:#faf0dd;font-weight:bold}.page-node-9 .three.column p a:hover{text-decoration:none}.page-node-9 .three.column p a:hover{background-color:#4e1f12}.page-node-9 .three.column p a:active{background-color:#421a0f}.page-node-9 .three.column p a.disabled,.page-node-9 .three.column p a[disabled]{opacity:0.6;background:false;cursor:default;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.page-node-9 .three.column p a::-moz-focus-inner{padding:0 !important;margin:-1px !important}.page-node-9 .columnwrapper.text{padding-bottom:35px}.page-node-24 div.breadcrumb{display:none}.page-node-25 h1{display:none}.page-node-26 iframe#googlemap{float:right;margin-left:25px}.page-node-26 h1{font-family:"Mate SC", serif;margin-top:7px;font-size:2.5em}.page-node-26 h2{font-family:"Mate SC", serif;font-size:2.5em}.page-node-26 p.address{font-size:1.3em;margin-left:5px}.page-node-26 ul.phone{margin-bottom:8px}.page-node-26 ul.phone li{font-style:normal}.page-node-26 #main ul{font-size:1.3em;line-height:2em;font-style:normal;padding-left:50px}.page-node-26 #main ul li{text-indent:6px}.page-node-26 #main ul li a{font-weight:normal}.node-type-article h1{margin-top:0.4em;line-height:1.3em;margin-bottom:10px}.node-type-article img.backtotop{margin-top:6px}.page-taxonomy-term h1{font-size:3.25em;margin-bottom:20px}.page-node-2 h1{text-align:center;margin-bottom:16px}.page-node-2 .founder{display:block;font-size:1.4em;text-align:center;font-family:"Mate SC", serif;margin-bottom:5px}.page-node-2 p{margin-bottom:35px}.cv{text-align:center;font-size:15px;font-weight:400}.block-views-featured-article-block{margin-bottom:20px}img.backtotop{display:block;margin:42px auto 45px}.berry-and-staff{margin-top:40px}.noise{position:relative;z-index:1}.noise:before,.body-noise:before{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:0;right:0;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJtJREFUeNqEj+sKwyAMhdMIurp10tVB9/5PKFhlxcuMPwqzjglHvJwk5xvu022CP0spBUhbTOmn6D+EAMg5h8c8Q4zxJHp/73stQGpN5qfWX+Po7r2HVApIrLjFVUpgjMFFCHDOVZO1FnLOh4YWhjIZY05A2AveAywTUVBrvSw1OJ3lONbcdtuO0dgL3gNkr3UVbXBbgFrAjwADAN5skmPqQWKqAAAAAElFTkSuQmCC)}strong{font-weight:400}.apa-footer{width:1020px;margin:0 auto;background:#632717 url(/sites/all/themes/apa/images/woodtop.png) repeat-x;box-shadow:0 7px 15px rgba(0,0,0,0.5);min-height:31px;color:#decbad;line-height:31px;font-size:13px;font-weight:400;padding:0 40px}.apa-footer a{color:#decbad}.apa-footer #backtotop{font-weight:bold}.float-left{float:left}.float-right{float:right}.three-column{width:33.33333%}.text-align-left{text-align:left}.text-align-center{text-align:center}.text-align-right{text-align:right}a.make-appointment-link{margin-left:20px}.page-node-35 h1{margin:0.4em 0}.page-node-24 h1{display:none}#block-menu-menu-education-menu{font-size:18px;line-height:30px}#block-menu-menu-education-menu ul.menu{padding-left:14px;padding-top:0;margin-top:5px}#block-menu-menu-education-menu ul.menu li.expanded{font-weight:400}#block-menu-menu-education-menu ul.menu li.leaf{font-weight:300}#block-menu-menu-education-menu ul.menu li.leaf.last{margin-bottom:16px}.menu-icon{display:none;position:fixed;top:0;opacity:.7;width:2.2rem;margin:.4rem 0 0 .4rem;cursor:pointer}.menu-icon img{-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;background:#632717 url(/sites/all/themes/apa/images/woodtop.png) repeat-x;border:2px solid black;padding:0 2px}@media (max-width: 66.5em){#header{background:url(/sites/all/themes/apa/images/woodbar.png);min-height:68px;background-size:cover;display:flex;align-items:center;padding-bottom:7px;z-index:3;position:relative}#menubar{display:none}#logozone,#woodceiling #woodceiling-inner,#block-system-main-menu{width:100%}#main{margin-top:-2rem;width:96%}}@media (max-width: 61.25em){#logozone{height:155px}#logozone #ribbon,#logozone>.apa-link,#logozone #logo{display:none}#logozone div.namewrapper,#logozone h1.namewrapper{padding-top:45px}}@media (max-width: 47.9375em){h2{text-align:center}.columnwrapper .column{width:100%;text-align:center;margin:.5rem 0 !important}.columnwrapper.text{padding-bottom:0}.columnwrapper.text h2{margin:0.4em auto 0}.columnwrapper.text .column{text-align:initial}.columnwrapper.testimonials .column,.columnwrapper.trio .column{border-bottom:1px dashed #fff}}@media (max-width: 47.9375em) and (max-width: 47.9375em){.columnwrapper.trio a{display:flex;align-items:center}.columnwrapper.trio img{margin:0 auto}}@media (min-width: 41.625em){#header{display:block}}@media (max-width: 41.5625em){#woodceiling{height:auto;position:relative;background-size:cover}#woodceiling #woodceiling-inner .facebook-find{position:initial;text-align:center}#logozone{height:auto}#logozone div.namewrapper,#logozone h1.namewrapper{padding-top:10px;padding-bottom:10px}#mfm{display:none}.menu-icon{display:block}#header{display:none;position:fixed;top:2.4rem;left:0.5rem;z-index:5;width:12rem;margin-top:2px;padding:0.3rem;background:black;border-radius:10px;opacity:0.85}#header .menu{text-align:left}#header li{padding:2px 0}#main{-moz-border-radius-topleft:10px;-webkit-border-top-left-radius:10px;border-top-left-radius:10px;-moz-border-radius-topright:10px;-webkit-border-top-right-radius:10px;border-top-right-radius:10px;margin-top:0}#main .main-inner{padding-top:1rem}.page-node-7 h1{text-align:center}}@media (max-width: 26.25em){#toast-container{width:100%;bottom:0;left:0}#toast-container .toast{width:100%;margin:0;border-radius:0}}@media (max-width: 66.5em){.apa-footer{width:96%}}@media (max-width: 47.9375em){.apa-footer{padding:0 1rem}}@media (max-width: 43.125em){.apa-footer{background-size:cover}.apa-footer .three-column{width:100%;text-align:center}}@media (max-width: 47.9375em){.page-node-9 .columnwrapper.text a{display:flex;align-items:center}.page-node-9 .columnwrapper.text img{margin:0 auto}}@media (max-width: 47.9375em){.page-node-9 .columnwrapper.text .column{border-bottom:1px dashed #fff}.page-node-9 .columnwrapper.text h2 a{text-align:center;display:inline-block}}@media (max-width: 33.75em){#block-views-featured-article-block .view-featured-article .views-row{width:100%;border-bottom:1px dashed #fff;margin-bottom:1rem;padding-bottom:1rem}}.page-node-26 iframe#googlemap{margin-bottom:2rem}@media (max-width: 47.9375em){.page-node-26 h1{text-align:center}}.trio img,iframe.shadow,.page-node-26 iframe#googlemap,img.shadow,.field-type-image img,.views-field-field-image img,.page-node-7 iframe,.page-node-25 .field-type-image img{-webkit-transition-duration:0.75s;-moz-transition-duration:0.75s;-o-transition-duration:0.75s;transition-duration:0.75s}.trio img:hover,iframe.shadow:hover,.page-node-26 iframe#googlemap:hover,img.shadow:hover,.field-type-image img:hover,.views-field-field-image img:hover,.page-node-7 iframe:hover,.page-node-25 .field-type-image img:hover{-webkit-box-shadow:rgba(0,0,0,0.73) 5px 5px 8px 2px;-moz-box-shadow:rgba(0,0,0,0.73) 5px 5px 8px 2px;box-shadow:rgba(0,0,0,0.73) 5px 5px 8px 2px;-webkit-transition-duration:0.75s;-moz-transition-duration:0.75s;-o-transition-duration:0.75s;transition-duration:0.75s}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_border-box\.scss}line{font-family:\000036}}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/toolkit-1\.0\.0\/stylesheets\/toolkit\/_fluid-media\.scss}line{font-family:\000034}}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/**
+ * hover-box-shadow - Creates a box shadow on hover
+ */
+/**
+ * Global partials: Typography, forms, site-wide changes.
+ */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000320}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000328}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000339}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000346}}
+[hidden] {
+  display: none;
+}
+
+/*! normalize.css v2.1.0 | Base | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_base\.scss}line{font-family:\0000313}}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_base\.scss}line{font-family:\0000337}}
+body {
+  margin: 0;
+}
+
+/*! normalize.css v2.1.0 | Links | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_links\.scss}line{font-family:\000039}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_links\.scss}line{font-family:\0000316}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v2.1.0 | Typography | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000313}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000347}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000354}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000366}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000373}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000381}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003100}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003110}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003118}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003140}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003147}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003154}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003158}}
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v2.1.0 | Embedded Content | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_embeds\.scss}line{font-family:\000039}}
+img {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_embeds\.scss}line{font-family:\0000318}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v2.1.0 | Figures | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_figures\.scss}line{font-family:\000039}}
+figure {
+  margin: 0;
+}
+
+/*! normalize.css v2.1.0 | Forms | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000317}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000330}}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000349}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000363}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000373}}
+button,
+select {
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000390}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003101}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003113}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003126}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003137}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003144}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003152}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/*! normalize.css v2.1.0 | Tables | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_tables\.scss}line{font-family:\000039}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000314}}
+.clearfix:before, .content:before, #woodceiling:before, #woodceiling ul:before, .main-inner:before, .page-staff .views-row:before, .page-staff .views-field-field-image img:before, .page-node-7 .framewrap:before, .block-views-featured-article-block:before, .clearfix:after, .content:after, #woodceiling:after, #woodceiling ul:after, .main-inner:after, .page-staff .views-row:after, .page-staff .views-field-field-image img:after, .page-node-7 .framewrap:after, .block-views-featured-article-block:after {
+  display: table;
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_extendables\.scss}line{font-family:\0000319}}
+.clearfix:after, .content:after, #woodceiling:after, #woodceiling ul:after, .main-inner:after, .page-staff .views-row:after, .page-staff .views-field-field-image img:after, .page-node-7 .framewrap:after, .block-views-featured-article-block:after {
+  clear: both;
+}
+
+/**
+ * Defaults: For any general elements to apply to the whole page.
+ */
+/**
+* Typography: Headings, body text, lists, code, and more for a versatile and durable typography system.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\000035}}
+body {
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #303030;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000326}}
+h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+  font-size: 2.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000332}}
+h2 {
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+  margin: 1em auto 0.5em;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000340}}
+h3 {
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000345}}
+h4 {
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000350}}
+h5 {
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000355}}
+h6 {
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000367}}
+a:link {
+  color: #632717;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000372}}
+a:visited {
+  color: #632717;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000376}}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\0000395}}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\00003103}}
+ol {
+  font-size: 1.3em;
+  line-height: 28px;
+  padding-left: 55px;
+  margin-bottom: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\00003108}}
+ol li {
+  margin-bottom: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\00003124}}
+hr {
+  height: 1px;
+  border: 1px solid #666;
+  padding-bottom: -1px;
+  margin: 1.625em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\00003131}}
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\00003135}}
+em {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\00003142}}
+::-moz-selection {
+  background: #632717;
+  color: white;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_type\.scss}line{font-family:\00003143}}
+::selection {
+  background: #632717;
+  color: white;
+  text-shadow: none;
+}
+
+/**
+* Form elements: Inputs, buttons, etc.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/global\/_forms\.scss}line{font-family:\0000326}}
+input,
+button,
+select,
+textarea {
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+@font-face {
+  font-family: 'Nuptial';
+  src: url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.eot");
+  src: url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.eot?#iefix") format("embedded-opentype"), url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.ttf") format("truetype"), url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.woff") format("woff"), url("/sites/default/files/fontyourface/local_fonts/Nuptial-normal-normal/nuptial_script_lt_std_medium-webfont.svg#nuptial_script_lt_stdmedium") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/**
+ * Design partials: A place to put your specific design partials.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000314}}
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000321}}
+body {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background: #7e9bcb;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3b485f), color-stop(100%, #7e9bcb));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #3b485f 0%, #7e9bcb 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #3b485f 0%, #7e9bcb 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b485f', endColorstr='#7e9bcb',GradientType=0 );
+  /* IE6-9 */
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+  background-color: #7e9bcb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000338}}
+iframe {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000347}}
+#main a,
+#header a {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000350}}
+#main a:active,
+#header a:active {
+  top: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000355}}
+#woodceiling {
+  background: #632717 url(/sites/all/themes/apa/images/woodtop.png) repeat-x;
+  width: 100%;
+  height: 33px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000366}}
+#woodceiling #woodceiling-inner {
+  width: 1042px;
+  margin: 0 auto;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000371}}
+#woodceiling #woodceiling-inner img.facebook-logo {
+  width: 16px;
+  height: 16px;
+  margin: 0 6px 0 0;
+  position: relative;
+  top: 4px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000384}}
+#woodceiling #woodceiling-inner .facebook-find {
+  position: absolute;
+  right: 27px;
+  top: 0;
+  width: auto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.76);
+  font-family: "Mate SC", serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\0000394}}
+#woodceiling #woodceiling-inner .facebook-find a {
+  color: #FFFAF0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003100}}
+#woodceiling ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003107}}
+#woodceiling ul li {
+  display: inline-block;
+  font-family: "Mate SC", serif;
+  text-transform: lowercase;
+  line-height: 31px;
+  font-size: 18px;
+  padding: 0;
+  color: #f5ede0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.76);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003117}}
+#woodceiling ul li.tel {
+  padding-right: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003120}}
+#woodceiling ul li.fax {
+  padding-left: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003127}}
+.sensiblewidth {
+  width: 1042px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003131}}
+#logozone {
+  height: 250px;
+  margin: 0 auto;
+  background: transparent;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003137}}
+#logozone a.apa-link, #logozone a.serviceslink {
+  color: #fffaf0;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003141}}
+#logozone a.apa-link:hover, #logozone a.serviceslink:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003147}}
+#logozone div.namewrapper,
+#logozone h1.namewrapper {
+  padding-top: 86px;
+  text-align: center;
+  color: #fffaf0;
+  margin: 0;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003154}}
+#logozone div.namewrapper span#apa,
+#logozone h1.namewrapper span#apa {
+  display: block;
+  font-family: "Mate SC", serif;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003162}}
+#logozone div.namewrapper span#colon,
+#logozone h1.namewrapper span#colon {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003165}}
+#logozone div.namewrapper span#mfm,
+#logozone h1.namewrapper span#mfm {
+  display: block;
+  font-family: Nuptial, serif;
+  font-size: 32px;
+  line-height: 32px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003174}}
+#logozone #logo {
+  position: absolute;
+  left: -6px;
+  bottom: -30px;
+  z-index: 30;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003181}}
+#logozone div#ribbon {
+  position: absolute;
+  top: -3px;
+  right: 8px;
+  width: 167px;
+  height: 231px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003188}}
+#logozone div#ribbon:active {
+  top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003192}}
+#logozone div#ribbon #ribbon-inner {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003196}}
+#logozone div#ribbon p.textlink {
+  position: absolute;
+  top: 161px;
+  width: 100%;
+  color: #fffaf0;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 auto;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.79);
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003210}}
+#logozone div#ribbon p.textlink:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003216}}
+#logozone #ribbonpatient {
+  position: absolute;
+  width: 127px;
+  height: 99px;
+  top: 51px;
+  left: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003226}}
+#block-system-main-menu {
+  width: 1100px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003230}}
+#block-system-main-menu ul {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  z-index: 32;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003240}}
+#block-system-main-menu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 1px 15px 0;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003246}}
+#block-system-main-menu ul li a {
+  color: #faf0dd;
+  text-decoration: none;
+  text-shadow: 0 2px 2px rgba(22, 24, 26, 0.78);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003251}}
+#block-system-main-menu ul li a:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003255}}
+#block-system-main-menu ul li a.active-trail {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003263}}
+#menubar {
+  position: absolute;
+  bottom: -53px;
+  z-index: 25;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003273}}
+#main {
+  width: 1020px;
+  margin: 0 auto;
+  background: #e1d4bc url(/sites/all/themes/apa/images/paper-texture.jpg);
+  box-shadow: 0 2px 38px rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003281}}
+.main-inner {
+  max-width: 96%;
+  margin: 0 4%;
+  padding: 60px 0 0 0;
+  min-height: 600px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003288}}
+.main-inner p {
+  font-size: 24px;
+  line-height: 40px;
+  margin: 0.8em auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003299}}
+.columnwrapper.text {
+  padding-bottom: 28px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003303}}
+.columnwrapper.text.trio {
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003307}}
+.columnwrapper.video {
+  padding-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003311}}
+.columnwrapper.testimonials {
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003314}}
+.columnwrapper.testimonials p {
+  margin-top: 26px;
+  margin-bottom: 10px;
+  line-height: 36px;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003320}}
+.columnwrapper.testimonials p.more {
+  margin-top: 3px;
+  float: right;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003329}}
+.two.column {
+  width: 48.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003332}}
+.two.column h2 {
+  font-size: 2.2em;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003338}}
+.two.column p {
+  font-size: 1.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003343}}
+.two.column.first {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003347}}
+.two.column.second {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003351}}
+.three.column {
+  width: 32%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003354}}
+.three.column h2 {
+  font-size: 1.85em;
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-family: "Mate SC", serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003361}}
+.three.column p {
+  font-size: 1em;
+  line-height: 1.8em;
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003369}}
+.three.column.first {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003373}}
+.three.column.second {
+  float: left;
+  margin-left: 2%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003378}}
+.three.column.third {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003382}}
+.aftertext h2 {
+  margin-top: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003386}}
+.shadow, .field-type-image img,
+.views-field-field-image img, .page-node-26 iframe#googlemap {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003397}}
+.page-staff .views-row {
+  margin-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003400}}
+.page-staff .views-row.views-row-1 {
+  margin-top: 63px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003405}}
+.page-staff h1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003409}}
+.page-staff h2 {
+  margin-top: -3px;
+  margin-bottom: 10px;
+  width: 69%;
+  float: right;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003416}}
+.page-staff .jobtitle {
+  font-family: "Mate SC", serif;
+  font-size: 1.3em;
+  width: 69%;
+  float: right;
+  text-align: left;
+  margin-bottom: 9px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003425}}
+.page-staff p {
+  font-size: 18px;
+  line-height: 30px;
+  overflow: hidden;
+  width: 69%;
+  float: right;
+  text-align: left;
+  margin-bottom: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003434}}
+.page-staff .views-field-field-image img {
+  max-width: 300px;
+  width: 28%;
+  float: left;
+  margin-right: 2%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003445}}
+.page-node-7 .framewrap {
+  margin-bottom: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003450}}
+.page-node-7 h1 {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003454}}
+.page-node-7 p.firsttext {
+  margin-bottom: 44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003458}}
+.page-node-7 p.nexttext {
+  margin-top: 0;
+  margin-bottom: 58px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003463}}
+.page-node-7 p.written-testimonial {
+  margin-bottom: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003467}}
+.page-node-7 h2.hand {
+  margin-top: 69px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003474}}
+.page-node-8 h1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003478}}
+.page-node-8 p.knowthis {
+  font-family: "EB Garamond", serif;
+  line-height: 1.3em;
+  font-size: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003484}}
+.page-node-8 .field-item h2 {
+  font-size: 32px;
+  margin-top: 36px;
+  margin-left: 11px;
+  font-family: "Mate SC", serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003491}}
+.page-node-8 #main ul {
+  font-size: 22px;
+  line-height: 1.7em;
+  font-style: italic;
+  padding-left: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003497}}
+.page-node-8 #main ul li {
+  text-indent: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003505}}
+.page-node-9 h1 {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003509}}
+.page-node-9 .columnwrapper.video {
+  margin-bottom: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003514}}
+.page-node-9 #block-views-featured-article-block h2 {
+  margin: 0 0 20px;
+  font-size: 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003519}}
+.page-node-9 #block-views-featured-article-block .views-row {
+  width: 48%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003524}}
+.page-node-9 #block-views-featured-article-block .views-row h2 {
+  font-size: 1.65em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003528}}
+.page-node-9 #block-views-featured-article-block .views-row p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003534}}
+.page-node-9 #block-views-featured-article-block .views-row-first {
+  width: 52%;
+  padding-right: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003541}}
+.page-node-9 #block-views-featured-article-block .view-footer h2 {
+  display: block;
+  margin-bottom: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003549}}
+.page-node-9 .columnwrapper.video h2 {
+  margin-top: 32px;
+  margin-bottom: 29px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003557}}
+.page-node-9 .three.column h2 {
+  font-size: 1.8em;
+  margin-top: 17px;
+  margin-bottom: 14px;
+  font-family: "Mate SC", serif;
+  letter-spacing: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003565}}
+.page-node-9 .three.column p {
+  font-size: 15px;
+  line-height: 25px;
+  padding-right: 13px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003572}}
+.page-node-9 .three.column p a {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF632717', endColorstr='#FF100604');
+  background-color: #632717;
+  border: 0;
+  color: white;
+  text-shadow: black 0 -1px 0;
+  padding: 0 10px;
+  text-shadow: none;
+  color: #faf0dd;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/sassy-buttons-0\.1\.4\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+.page-node-9 .three.column p a:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/sassy-buttons-0\.1\.4\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+.page-node-9 .three.column p a:hover {
+  background-color: #4e1f12;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/sassy-buttons-0\.1\.4\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+.page-node-9 .three.column p a:active {
+  background-color: #421a0f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/sassy-buttons-0\.1\.4\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+.page-node-9 .three.column p a.disabled, .page-node-9 .three.column p a[disabled] {
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/vagrant\/\.rvm\/gems\/ruby-2\.3\.0\/gems\/sassy-buttons-0\.1\.4\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000373}}
+.page-node-9 .three.column p a::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003581}}
+.page-node-9 .columnwrapper.text {
+  padding-bottom: 35px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003587}}
+.page-node-24 div.breadcrumb {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003595}}
+.page-node-25 h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003601}}
+.page-node-26 iframe#googlemap {
+  float: right;
+  margin-left: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003607}}
+.page-node-26 h1 {
+  font-family: "Mate SC", serif;
+  margin-top: 7px;
+  font-size: 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003613}}
+.page-node-26 h2 {
+  font-family: "Mate SC", serif;
+  font-size: 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003618}}
+.page-node-26 p.address {
+  font-size: 1.3em;
+  margin-left: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003623}}
+.page-node-26 ul.phone {
+  margin-bottom: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003626}}
+.page-node-26 ul.phone li {
+  font-style: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003631}}
+.page-node-26 #main ul {
+  font-size: 1.3em;
+  line-height: 2em;
+  font-style: normal;
+  padding-left: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003637}}
+.page-node-26 #main ul li {
+  text-indent: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003640}}
+.page-node-26 #main ul li a {
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003649}}
+.node-type-article h1 {
+  margin-top: 0.4em;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003655}}
+.node-type-article img.backtotop {
+  margin-top: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003661}}
+.page-taxonomy-term h1 {
+  font-size: 3.25em;
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003670}}
+.page-node-2 h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003676}}
+.page-node-2 .founder {
+  display: block;
+  font-size: 1.4em;
+  text-align: center;
+  font-family: "Mate SC", serif;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003684}}
+.page-node-2 p {
+  margin-bottom: 35px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003690}}
+.cv {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003696}}
+.block-views-featured-article-block {
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003701}}
+img.backtotop {
+  display: block;
+  margin: 42px auto 45px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003706}}
+.berry-and-staff {
+  margin-top: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003710}}
+.noise {
+  position: relative;
+  z-index: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003715}}
+.noise:before, .body-noise:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJtJREFUeNqEj+sKwyAMhdMIurp10tVB9/5PKFhlxcuMPwqzjglHvJwk5xvu022CP0spBUhbTOmn6D+EAMg5h8c8Q4zxJHp/73stQGpN5qfWX+Po7r2HVApIrLjFVUpgjMFFCHDOVZO1FnLOh4YWhjIZY05A2AveAywTUVBrvSw1OJ3lONbcdtuO0dgL3gNkr3UVbXBbgFrAjwADAN5skmPqQWKqAAAAAElFTkSuQmCC);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003726}}
+strong {
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003730}}
+.apa-footer {
+  width: 1020px;
+  margin: 0 auto;
+  background: #632717 url(/sites/all/themes/apa/images/woodtop.png) repeat-x;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
+  min-height: 31px;
+  color: #decbad;
+  line-height: 31px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003742}}
+.apa-footer a {
+  color: #decbad;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003746}}
+.apa-footer #backtotop {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003751}}
+.float-left {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003754}}
+.float-right {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003757}}
+.three-column {
+  width: 33.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003760}}
+.text-align-left {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003763}}
+.text-align-center {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003766}}
+.text-align-right {
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003770}}
+a.make-appointment-link {
+  margin-left: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003775}}
+.page-node-35 h1 {
+  margin: 0.4em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003781}}
+.page-node-24 h1 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003786}}
+#block-menu-menu-education-menu {
+  font-size: 18px;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003789}}
+#block-menu-menu-education-menu ul.menu {
+  padding-left: 14px;
+  padding-top: 0;
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003795}}
+#block-menu-menu-education-menu ul.menu li.expanded {
+  font-weight: 400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003798}}
+#block-menu-menu-education-menu ul.menu li.leaf {
+  font-weight: 300;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_design\.scss}line{font-family:\00003800}}
+#block-menu-menu-education-menu ul.menu li.leaf.last {
+  margin-bottom: 16px;
+}
+
+/**
+ * Responsive Partial
+ *
+ */
+/**
+ * Responsive Styles
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000362}}
+.menu-icon {
+  display: none;
+  position: fixed;
+  top: 0;
+  opacity: .7;
+  width: 2.2rem;
+  margin: .4rem 0 0 .4rem;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000372}}
+.menu-icon img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background: #632717 url(/sites/all/themes/apa/images/woodtop.png) repeat-x;
+  border: 2px solid black;
+  padding: 0 2px;
+}
+
+@media (max-width: 66.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000382}}
+  #header {
+    background: url(/sites/all/themes/apa/images/woodbar.png);
+    min-height: 68px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    z-index: 3;
+    position: relative;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000393}}
+  #menubar {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000398}}
+  #logozone, #woodceiling #woodceiling-inner,
+  #block-system-main-menu {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003102}}
+  #main {
+    margin-top: -2rem;
+    width: 96%;
+  }
+}
+@media (max-width: 61.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003109}}
+  #logozone {
+    height: 155px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003113}}
+  #logozone #ribbon, #logozone > .apa-link, #logozone #logo {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003117}}
+  #logozone div.namewrapper, #logozone h1.namewrapper {
+    padding-top: 45px;
+  }
+}
+@media (max-width: 58.6875em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003124}}
+  #header {
+    padding-top: 3px;
+  }
+}
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003131}}
+  #page-title, h2 {
+    text-align: center;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003136}}
+  .columnwrapper .column {
+    width: 100%;
+    text-align: center;
+    margin: .5rem 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003143}}
+  .columnwrapper .column p {
+    text-align: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003148}}
+  .columnwrapper.text {
+    padding-bottom: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003151}}
+  .columnwrapper.text h2 {
+    margin: 0.4em auto 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003155}}
+  .columnwrapper.text .column {
+    text-align: initial;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000353}}
+  .columnwrapper.testimonials .column, .columnwrapper.trio .column {
+    border-bottom: 1px dashed white;
+  }
+}
+@media (max-width: 47.9375em) and (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000334}}
+  .columnwrapper.trio a {
+    display: flex;
+    align-items: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000339}}
+  .columnwrapper.trio a div {
+    width: 100%;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000345}}
+  .columnwrapper.trio img {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 41.625em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003173}}
+  #header {
+    display: block;
+  }
+}
+@media (max-width: 41.5625em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003180}}
+  p {
+    line-height: 1.5 !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003185}}
+  #woodceiling {
+    height: auto;
+    position: relative;
+    background-size: cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003190}}
+  #woodceiling #woodceiling-inner .facebook-find {
+    position: static;
+    text-align: center;
+    margin-top: -8px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003197}}
+  #logozone {
+    height: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003200}}
+  #logozone div.namewrapper, #logozone h1.namewrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003207}}
+  #mfm {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003212}}
+  .menu-icon {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003216}}
+  #header {
+    display: none;
+    position: fixed;
+    top: 2.4rem;
+    left: 0.5rem;
+    z-index: 5;
+    width: 12rem;
+    margin-top: 2px;
+    padding: 0.3rem;
+    background: black;
+    border-radius: 10px;
+    opacity: 0.85;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003231}}
+  #header .menu {
+    text-align: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003235}}
+  #header li {
+    padding: 2px 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003239}}
+  #main {
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003244}}
+  #main .main-inner {
+    padding-top: 1rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003252}}
+  .page-node-7 h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 26.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003261}}
+  h1 {
+    line-height: 1;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003266}}
+  #woodceiling #woodceiling-inner ul li {
+    width: 100%;
+    padding: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003273}}
+  #toast-container {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003278}}
+  #toast-container .toast {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+/**
+ * Page / Element Specific Styling
+ */
+@media (max-width: 66.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003293}}
+  .apa-footer {
+    width: 96%;
+  }
+}
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003293}}
+  .apa-footer {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 43.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003293}}
+  .apa-footer {
+    background-size: cover;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003305}}
+  .apa-footer .three-column {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003315}}
+  #block-views-featured-article-block h2 {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003319}}
+  #block-views-featured-article-block .field-name-node-link a {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media (max-width: 33.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003326}}
+  #block-views-featured-article-block .view-featured-article .views-row {
+    width: 100%;
+    border-bottom: 1px dashed white;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 26.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003337}}
+  .node-article .field-name-node-link a {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003345}}
+.page-node-26 iframe#googlemap {
+  margin-bottom: 2rem;
+}
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003350}}
+  .page-node-26 h1 {
+    text-align: center;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003357}}
+.page-node-35 h1 {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003361}}
+.page-node-35 .webform-client-form input {
+  width: 100%;
+}
+
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003369}}
+  .page-node-8 .trio .column > a {
+    display: block;
+  }
+}
+@media (max-width: 26.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003376}}
+  .page-node-8 .field-item h2 {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003380}}
+  .page-node-8 p.knowthis {
+    font-size: 2rem;
+    line-height: 1.1 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003385}}
+  .page-node-8 #main ul {
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    text-indent: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003391}}
+  .page-node-8 #main ul li {
+    margin-bottom: 6px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003396}}
+  .page-node-8 .berry-and-staff {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003405}}
+  .page-node-7 p.nexttext, .page-node-7 p.firsttext {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed white;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003411}}
+  .page-node-7 .hand {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000334}}
+  .page-node-9 .columnwrapper.text a {
+    display: flex;
+    align-items: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000339}}
+  .page-node-9 .columnwrapper.text a div {
+    width: 100%;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000345}}
+  .page-node-9 .columnwrapper.text img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\0000353}}
+  .page-node-9 .columnwrapper.text .column {
+    border-bottom: 1px dashed white;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003424}}
+  .page-node-9 .columnwrapper.text h2 a {
+    text-align: center;
+    display: inline-block;
+  }
+}
+@media (max-width: 47.9375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_responsive\.scss}line{font-family:\00003433}}
+  .page-node-9 #block-system-main h2 {
+    text-align: center;
+  }
+}
+
+/**
+ * Polish Partial - Adds 'shiny' things like hover effects, shadows, etc
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/design\/_polish\.scss}line{font-family:\0000315}}
+.trio img,
+iframe.shadow,
+.page-node-26 iframe#googlemap,
+img.shadow,
+.field-type-image img,
+.views-field-field-image img,
+.page-node-7 iframe,
+.page-node-25 .field-type-image img {
+  -webkit-transition-duration: 0.75s;
+  -moz-transition-duration: 0.75s;
+  -o-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/perinatal\/sites\/all\/themes\/apa\/sass\/partials\/_mixins\.scss}line{font-family:\0000320}}
+.trio img:hover,
+iframe.shadow:hover,
+.page-node-26 iframe#googlemap:hover,
+img.shadow:hover,
+.field-type-image img:hover,
+.views-field-field-image img:hover,
+.page-node-7 iframe:hover,
+.page-node-25 .field-type-image img:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.73) 5px 5px 8px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.73) 5px 5px 8px 2px;
+  box-shadow: rgba(0, 0, 0, 0.73) 5px 5px 8px 2px;
+  -webkit-transition-duration: 0.75s;
+  -moz-transition-duration: 0.75s;
+  -o-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+}
