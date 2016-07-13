@@ -332,6 +332,15 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
+.node-article {
+  @include breakpoint($mobile-small) {
+    .field-name-node-link a {
+      display: block;
+      margin-left: 0;
+    }
+  }
+}
+
 #{$maps-page} {
   iframe#googlemap {
     margin-bottom: 2rem;
