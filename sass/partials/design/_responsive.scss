@@ -128,7 +128,7 @@ $vert-col-border-style: 1px dashed white;
 
 @include breakpoint($small) {
 
-  h2 {
+  #page-title, h2 {
     text-align: center;
   }
 
@@ -309,23 +309,19 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
-#{$education-page} {
-  .columnwrapper.text {
-    @include fix-col-images;
-
-    @include breakpoint($small) {
-      @include vertical-col-borders;
-
-      h2 a {
-        text-align: center;
-        display: inline-block;
-      }
-    }
-  }
-}
-
 // featured articles block
 #block-views-featured-article-block {
+  @include breakpoint($small) {
+    h2 {
+      text-align: center;
+    }
+
+    .field-name-node-link a {
+      display: block;
+      margin-left: 0;
+    }
+  }
+
   @include breakpoint(540px) {
     .view-featured-article .views-row {
       width: 100%;
@@ -405,6 +401,29 @@ $vert-col-border-style: 1px dashed white;
 
     .hand {
       margin-top: 2rem;
+    }
+  }
+}
+
+#{$education-page} {
+  .columnwrapper.text {
+    @include fix-col-images;
+
+    @include breakpoint($small) {
+      @include vertical-col-borders;
+
+      h2 a {
+        text-align: center;
+        display: inline-block;
+      }
+    }
+  }
+
+  @include breakpoint($small) {
+    #block-system-main {
+      h2 {
+        text-align: center;
+      }
     }
   }
 }
