@@ -78,6 +78,10 @@ $vert-col-border-style: 1px dashed white;
   }
 }
 
+#header .tel a {
+  color: #f5ede0;
+}
+
 @include breakpoint($non-desktop) {
   #header {
     background: url(/sites/all/themes/apa/images/woodbar.png);
